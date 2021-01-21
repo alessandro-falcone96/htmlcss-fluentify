@@ -3,17 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: 'Roboto', sans-serif;
+}
 header{
   background-color: #0C325A;
   /* height: 500px; */
-
 }
 nav{
   /* height: 100px; */
   width: 90vw;
   margin: auto;
-  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   font-weight: normal;
   /* background-color: lightblue; */
@@ -59,10 +59,6 @@ li a{
   padding: 5px;
 }
 
-
-
-
-
 nav::after{
   content: "";
   display: block;
@@ -72,13 +68,36 @@ nav::after{
 
 
 
-/* .container{
+.container{
+  position: relative;
   height: 400px;
-  width: 80vw;
-  margin: auto;
-  background-color: lightyellow;
+  margin-top: 50px;
+  margin-left: 5vw;
+  /* background-color: lightyellow; */
   background-image: url("../img/background-header.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-} */
+}
+
+#testo-titolo{
+  color: white;
+  width: 60%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bottone-generale{
+  color: white;
+  background-color: #7CBB02;
+  border: 1px solid #7CBB02;
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#titolo-bottone{
+  position: absolute;
+  bottom: 150px;
+}
