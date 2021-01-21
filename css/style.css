@@ -173,3 +173,59 @@ nav::after{
   width: 65%;
   margin: auto;
 }
+
+
+
+.terza-sezione{
+  width: 90%;
+  margin: auto;
+  height: 500px;
+  margin-top: 30px;
+  /* background-color: lightgreen; */
+}
+
+.contenitore-foto,
+.contenitore-testo{
+  width: 50%;
+  float: left;
+}
+
+.contenitore-foto img{
+  height: 400px;
+  object-fit: cover;
+  padding-left: 100px;
+}
+
+.contenitore-foto{
+  /* background-color: orange; */
+}
+
+.contenitore-testo{
+  /* background-color: red; */
+  height: 300px;
+}
+
+.contenitore-testo h3{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+.contenitore-testo p{
+  color: #808080;
+  padding-bottom: 20px;
+}
+.contenitore-testo a{
+  color: blue;
+}
+
+.contenitore-testo h3,
+.contenitore-testo p,
+.contenitore-testo a{
+  width: 70%;
+}
+
+.contenitore-testo::after{
+  content: "";
+  display: block;
+  clear: both;
+}
