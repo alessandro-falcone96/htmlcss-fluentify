@@ -14,7 +14,10 @@ header{
 hr{
   border-color: #808080;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 nav{
   /* height: 100px; */
   width: 90vw;
@@ -37,7 +40,6 @@ li{
 }
 
 li a{
-  text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
@@ -174,6 +176,11 @@ nav::after{
   margin: auto;
 }
 
+.piccolo-hr{
+  width: 50px;
+  margin: auto;
+  padding: 10px 0px;
+}
 
 
 .terza-sezione{
@@ -228,4 +235,51 @@ nav::after{
   content: "";
   display: block;
   clear: both;
+}
+
+
+
+footer{
+  background-color: #D3D3D3;
+  height: 100px;
+}
+
+.contenitore-sinistra-footer,
+.contenitore-destra-footer{
+  width: 50%;
+  float: left;
+  /* border: 1px solid black; */
+  line-height: 100px;
+}
+
+.contenitore-sinistra-footer h4{
+  font-size: 30px;
+  margin-left: 5vw;
+}
+
+.contenitore-destra-footer::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.contenitore-destra-footer span{
+  color: #808080;
+  margin: 0px 20px;
+}
+.contenitore-destra-footer button{
+  text-transform: uppercase;
+}
+
+select{
+  color: #808080;
+  border: 0px;
+  border-bottom: 1px solid #808080;
+  background-color: #D3D3D3;
+  margin: 0px 20px;
+}
+
+#bottone-help{
+  position: fixed;
+  bottom: 0;
+  right: 5%;
 }
