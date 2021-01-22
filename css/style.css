@@ -80,7 +80,6 @@ nav::after{
   height: 400px;
   margin-top: 50px;
   margin-left: 5vw;
-  margin-right: -50px;
   /* background-color: lightyellow; */
   background-image: url("../img/background-header.png");
   background-size: contain;
